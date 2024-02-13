@@ -1,0 +1,124 @@
+.gpt3__blog-container_article {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    background: var(--color-footer);
+    transition: transform 0.3s ease;
+    /* Animation de transformation */
+}
+
+.animation-div {
+    width: 100px;
+    height: 100px;
+    background-color:#06192c;
+    transition: transform 0.3s ease;
+    /* Animation de transformation */
+}
+
+/* Animation lors du survol */
+.gpt3__blog-container_article:hover {
+    transform: scale(1.1);
+    /* Agrandissement de l'élément */
+}
+
+
+.gpt3__blog-container_article-image {
+    width: 100%;
+    height: 100%;
+
+}
+
+.gpt3__blog-container_article-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.gpt3__blog-container_article-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
+    padding: 0.5rem 1.5rem;
+    height: 100%;
+}
+
+.gpt3__blog-container_article-content-image h1 {
+    color: #fff;
+    padding: 1rem 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    /* Police */
+    font-size: 26px;
+    /* Taille de la police */
+    font-weight: bold;
+    text-align: center;
+    /* Alignement du texte */
+
+
+}
+
+
+.gpt3__blog-container_article-content-image {
+    background: var(--gradient-bar);
+}
+
+.gpt3__blog-container_article-content button {
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 35px;
+    cursor: pointer;
+    color: var(--color-blog);
+}
+
+.gpt3__blog-container_article-content h3 {
+    font-family: var(--font-family);
+    font-size: 20.11px;
+    font-weight: 500;
+    line-height: 30.30px;
+
+    color: black;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.gpt3__blog-container_article-content h4 {
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30.30px;
+    color: black;
+    cursor: pointer;
+}
+
+.gpt3__blog-container_article-content p {
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30.30px;
+    color: rgb(236, 31, 31);
+    cursor: pointer;
+}
+
+.gpt3__blog-container_article-content p1 {
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30.30px;
+    color: black;
+    cursor: pointer;
+}
+
+
+.gpt3__blog-container_article-content p:last-child {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 550px) {
+    .gpt3__blog-container_article-content h3 {
+        font-size: 18px;
+        line-height: 25p;
+    }
+}
